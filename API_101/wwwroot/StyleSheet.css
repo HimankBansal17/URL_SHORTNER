@@ -1,0 +1,124 @@
+﻿body {
+    background-color:black;
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction:column;
+}
+
+#add-url {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:dimgrey;
+}
+
+#newurl {
+    display: flex;
+    flex-direction: row;
+    word-spacing: 30px;
+    justify-content: space-around;
+    font-display:swap;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:40px;
+    color:azure;
+}
+
+#display:hover{
+    background-color:darkcyan;
+    border-radius:0px;
+    border-width:20px;
+    border:dotted;
+}
+#display{
+    align-self:center;
+    background-color:cornflowerblue;
+    margin:20px;
+    color:aliceblue;
+    padding:20px;
+    border-radius:10px;
+}
+#display{
+    border:thick;
+    width:1000px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:30px;
+    
+}
+#urls,th,td,tr {
+   
+    text-align:center;
+    width:100px;
+    height:30px;
+    
+    background-color:dodgerblue;
+    border:double;
+    font-display:auto;
+    color:azure;
+    font-size:20px;
+    border-radius:20px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+    #urls, th, td:hover {
+        background-color: darkcyan;
+        border-radius: 0px;
+        border-width:10px;
+        border: dotted;
+    }
+#heading {
+    align-self:center;
+    font-family:'Ink Free';
+    text-transform:capitalize;
+    font-weight:bolder;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size:30px;
+    color:antiquewhite;
+    background-color:slategrey;
+    margin:10px;
+    width:90%;
+    border-radius:3px;
+}
+input[type=text], select {
+    width: 200%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+#entry{
+    align-self:center;
+    display:flex;
+    flex-direction:row;
+    word-spacing:10px;
+    width:90%;
+    font-size:10px;
+    justify-content:center;
+    background-color:cornsilk;
+    opacity:1;
+    margin:10px;
+
+}
+
+#heading2{
+    align-self:center;
+    font-family: 'Ink Free';
+    width:90%;
+    display: flex;
+    font-weight:bold;
+    flex-direction:row;
+    justify-content:center;
+    font-size: 30px;
+    color:antiquewhite;
+    background-color:cornflowerblue;
+    border-radius: 10px;
+}

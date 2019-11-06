@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Url_shortner</title>
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="StyleSheet.css" />
+
+    <!-- head of the page-->
+    <p id=heading>URL-Shortner</p>
+
+    <!--Sub heading-->
+    <p id=heading2>Enter The Url</p>
+
+    <!--Form section for input of long URL-->
+    <div id="entry">
+        <form action="javascript:void(0);" id="entry" method="POST" onsubmit="AssignCode()">
+            <input type="text" id="add-url" placeholder="New Url">
+            <input  id="display" type="submit" value="Shortern">
+            <p id="surl" type="text"></p>
+        </form>
+    </div>
+
+    <!-- Section to output the short url generated for the given URL-->
+    <div id="newurl"></div>
+    
+    <!--Button to Display all the short URl geenrated and stored in the database if the user asks-->
+    <div >
+        <button id="display" onclick="getUrls()">Display all Urls</button>
+    </div>
+        <table cellpadding="20">
+            <tbody id="urls"></tbody>
+        </table>
+        <script src="JavaScript.js" asp-append-version="true"></script>
+</body>
+</html>

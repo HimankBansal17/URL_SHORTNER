@@ -1,0 +1,49 @@
+﻿<!--
+
+programmed by: Himank Bansal
+u3183058
+Reference code1:https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-3.0&tabs=visual-studio
+Reference Code2:https://docs.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-3.0
+    -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Url_shortner</title>
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="StyleSheet.css" />
+
+    <!-- heading of the page-->
+    <div id="heading">
+        <p>URL-Shortner</p>
+    </div>
+
+    <!--Sub heading-->
+    <div id="heading2">
+        <p id=heading2>Enter The Url</p>
+    </div>
+
+
+    <!--Form section for input of long URL-->
+    <div id="entry">
+        <form action="javascript:void(0);" id="entry" method="POST" onsubmit="AssignCode()">
+            <input type="text" id="add-url" placeholder="New Url">
+            <input id="display" type="submit" value="Shortern">
+            <p id="surl" type="text"></p>
+        </form>
+    </div>
+
+    <!-- Section to output the short url generated for the given URL-->
+    <div id="newurl"></div>
+
+    <!--Button to Display all the short URl geenrated and stored in the database if the user asks-->
+    <div id="display">
+        <button id="display" onclick="getUrls()">Display all Urls</button>
+    </div>
+    <table cellpadding="20">
+        <tbody id="urls"></tbody>
+    </table>
+    <script src="JavaScript.js" asp-append-version="true"></script>
+</body>
+</html>
