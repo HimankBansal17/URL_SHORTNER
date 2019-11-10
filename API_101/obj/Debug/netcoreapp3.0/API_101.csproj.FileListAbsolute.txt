@@ -136,3 +136,9 @@ D:\University Semester 3\Dynamic Data Desing\API Programming\API_101\obj\Debug\n
 D:\University Semester 3\Dynamic Data Desing\API Programming\API_101\obj\Debug\netcoreapp3.0\API_101.dll
 D:\University Semester 3\Dynamic Data Desing\API Programming\API_101\obj\Debug\netcoreapp3.0\API_101.pdb
 D:\University Semester 3\Dynamic Data Desing\API Programming\API_101\obj\Debug\netcoreapp3.0\API_101.csprojAssemblyReference.cache
+D:\University Semester 3\Dynamic Data Desing\API Programming\API_101\bin\Debug\netcoreapp3.0\WebSite\WebSite\web.config
+D:\University Semester 3\Dynamic Data Desing\API Programming\API_101\bin\Debug\netcoreapp3.0\WebSite\WebSite\API_101.deps.json
+D:\University Semester 3\Dynamic Data Desing\API Programming\API_101\bin\Debug\netcoreapp3.0\WebSite\WebSite\API_101.runtimeconfig.json
+D:\University Semester 3\Dynamic Data Desing\API Programming\API_101\bin\Debug\netcoreapp3.0\WebSite\WebSite\appsettings.Development.json
+D:\University Semester 3\Dynamic Data Desing\API Programming\API_101\bin\Debug\netcoreapp3.0\WebSite\WebSite\appsettings.json
+D:\University Semester 3\Dynamic Data Desing\API Programming\API_101\bin\Debug\netcoreapp3.0\WebSite\WebSite\libman.json
