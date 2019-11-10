@@ -8518,11 +8518,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\University Semester 3\\Dynamic Data Desing\\API Programming\\API_101\\API_101.csproj",
+      "projectUniqueName": "C:\\Users\\Himank\\Documents\\GitHub\\URL_SHORTNER\\API_101\\API_101.csproj",
       "projectName": "API_101",
-      "projectPath": "D:\\University Semester 3\\Dynamic Data Desing\\API Programming\\API_101\\API_101.csproj",
+      "projectPath": "C:\\Users\\Himank\\Documents\\GitHub\\URL_SHORTNER\\API_101\\API_101.csproj",
       "packagesPath": "C:\\Users\\Himank\\.nuget\\packages\\",
-      "outputPath": "D:\\University Semester 3\\Dynamic Data Desing\\API Programming\\API_101\\obj\\",
+      "outputPath": "C:\\Users\\Himank\\Documents\\GitHub\\URL_SHORTNER\\API_101\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
