@@ -1,4 +1,11 @@
-﻿<!DOCTYPE html>
+﻿<!--
+
+programmed by: Himank Bansal
+u3183058
+Reference code1:https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-3.0&tabs=visual-studio
+Reference Code2:https://docs.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-3.0
+    -->
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -6,7 +13,7 @@
 </head>
 <body>
     <link rel="stylesheet" type="text/css" href="StyleSheet.css" />
-    
+
     <!-- heading of the page-->
     <div id="heading">
         <p>URL-Shortner</p>
@@ -16,7 +23,7 @@
     <div id="heading2">
         <p id=heading2>Enter The Url</p>
     </div>
-    
+
 
     <!--Form section for input of long URL-->
     <div id="entry">
@@ -29,7 +36,8 @@
 
     <!-- Section to output the short url generated for the given URL-->
     <div id="newurl"></div>
-
+    <div id="Status"></div>
+        
     <!--Button to Display all the short URl geenrated and stored in the database if the user asks-->
     <div id="display">
         <button id="display" onclick="getUrls()">Display all Urls</button>

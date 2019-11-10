@@ -130,3 +130,9 @@ D:\University Semester 3\Dynamic Data Desing\API Programming\API_101\obj\Release
 D:\University Semester 3\Dynamic Data Desing\API Programming\API_101\obj\Release\netcoreapp3.0\API_101.csproj.CopyComplete
 D:\University Semester 3\Dynamic Data Desing\API Programming\API_101\obj\Release\netcoreapp3.0\API_101.dll
 D:\University Semester 3\Dynamic Data Desing\API Programming\API_101\obj\Release\netcoreapp3.0\API_101.pdb
+D:\University Semester 3\Dynamic Data Desing\API Programming\API_101\bin\Release\netcoreapp3.0\WebSite\web.config
+D:\University Semester 3\Dynamic Data Desing\API Programming\API_101\bin\Release\netcoreapp3.0\WebSite\API_101.deps.json
+D:\University Semester 3\Dynamic Data Desing\API Programming\API_101\bin\Release\netcoreapp3.0\WebSite\API_101.runtimeconfig.json
+D:\University Semester 3\Dynamic Data Desing\API Programming\API_101\bin\Release\netcoreapp3.0\WebSite\appsettings.Development.json
+D:\University Semester 3\Dynamic Data Desing\API Programming\API_101\bin\Release\netcoreapp3.0\WebSite\appsettings.json
+D:\University Semester 3\Dynamic Data Desing\API Programming\API_101\bin\Release\netcoreapp3.0\WebSite\libman.json

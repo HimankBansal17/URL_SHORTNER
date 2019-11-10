@@ -1,5 +1,8 @@
-﻿//PROGRAMMER:-HImank BANSAL
+﻿
+//programmed by: Himank Bansal
 //u3183058
+//Reference code1: https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-3.0&tabs=visual-studio
+//Reference Code2: https://docs.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-3.0
 
 
 //variable stroing address to the
@@ -27,14 +30,22 @@ function getUrls() {
 function status(s) {
     response = s;
     if (response == 200) {
+        var status = document.getElementById("Status");
+        status.innerHTML = "HTTP STATUS: " + response + " The Url entered already exists in the database";
         return console.info("HTTP STATUS: " + response + " The Url entered already exists in the database");
     }
     else if (response == 201) {
+        var status = document.getElementById("Status");
+        status.innerHTML = "HTTP STATUS: " + response + " The Short Url Has been Created";
         return console.info("HTTP STATUS: " + response + " The Short Url Has been Created");
 
     }
-    else if (response == 400)
-        return console.error("HTTP STATUS: " + response + " The Url Entered Is not Valid")
+    else if (response == 400) {
+        var status = document.getElementById("Status");
+        status.innerHTML = "HTTP STATUS: " + response + " The Url Entered Is not Valid";
+        return console.error("HTTP STATUS: " + response + " The Url Entered Is not Valid");
+    }
+        
 }
 
 

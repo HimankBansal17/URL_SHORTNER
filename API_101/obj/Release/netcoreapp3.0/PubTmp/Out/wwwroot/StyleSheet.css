@@ -5,6 +5,10 @@
     flex-direction:column;
 }
 
+#Status{
+    color:cornsilk;
+    text-align:center;
+}
 #add-url {
     overflow: hidden;
     text-overflow: ellipsis;
